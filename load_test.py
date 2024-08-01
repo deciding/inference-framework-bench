@@ -20,6 +20,12 @@ try:
 except ImportError:
     print("locust-plugins is not installed, Grafana won't work")
 
+# Suports:
+# MII: no stream
+# ParrotServe: no webapi
+# sglang: good
+# sarathi-serve: good
+
 # CUDA_VISIBLE_DEVICES=0 python -m vllm.entrypoints.openai.api_server --model meta-llama/Llama-2-7b-chat-hf --served-model-name meta-llama/Llama-2-7b-chat-hf --port 8001
 # CUDA_VISIBLE_DEVICES=0 python -m mii.entrypoints.openai_api_server --model meta-llama/Llama-2-7b-chat-hf  --port 8001
 # CUDA_VISIBLE_DEVICES=0 python -m sglang.launch_server --model-path meta-llama/Llama-2-7b-chat-hf --port 8001

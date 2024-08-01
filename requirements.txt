@@ -3,3 +3,5 @@ orjson==3.9.10
 transformers
 sentencepiece
 protobuf
+shortuuid # mii
+fastchat

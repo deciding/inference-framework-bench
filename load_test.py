@@ -20,8 +20,16 @@ try:
 except ImportError:
     print("locust-plugins is not installed, Grafana won't work")
 
+# CUDA_VISIBLE_DEVICES=0 python -m vllm.entrypoints.openai.api_server --model meta-llama/Llama-2-7b-chat-hf --served-model-name meta-llama/Llama-2-7b-chat-hf --port 8001
+# CUDA_VISIBLE_DEVICES=0 python -m mii.entrypoints.openai_api_server --model meta-llama/Llama-2-7b-chat-hf  --port 8001
+# CUDA_VISIBLE_DEVICES=0 python -m sglang.launch_server --model-path meta-llama/Llama-2-7b-chat-hf --port 8001
 
-# locust -t 30s --provider openai -u 1 -r 1 -H http://127.0.0.1:8001 -p 512 -o 200 --prompt-randomize --api-key EMPTY --model=Yi-6B-Chat --chat --stream --tokenizer=01-ai/Yi-6B-Chat --summary-file abc.log
+# python -m parrot.serve.http_server --config_path sample_configs/core/localhost_serve_core.json --log_dir log/ --log_filename core_1_llama2_7b.log
+# python -m parrot.engine.http_server --config_path sample_configs/engine/llama2-7b-v1.3.json --log_dir log/ --log_filename engine_1_llama2_7b.log --device cuda:0
+
+# CUDA_VISIBLE_DEVICES=0 python -m sarathi.entrypoints.openai.api_server --model_config_model meta-llama/Llama-2-7b-chat-hf --port 8001
+
+# locust -t 30s --provider openai -u 8 -r 8 -H http://127.0.0.1:8001 -p 512 -o 200 --api-key EMPTY --model=meta-llama/Llama-2-7b-chat-hf --chat --stream --tokenizer=meta-llama/Llama-2-7b-chat-hf --summary-file logs/test.csv
 
 def add_custom_metric(name, value, length_value=0):
     events.request.fire(
@@ -65,10 +73,12 @@ class TBTRecorder:
     
     def percentile(self, percentage):
         with self._lock:
+            if len(self.cache) == 0:
+                return 0.0
             self.cache.sort()
             dur_len = len(self.cache)
             res = self.cache[-int(dur_len * (1-percentage))]
-        return res
+            return res
 
 tbt_recorder = TBTRecorder()
 
@@ -1037,9 +1047,15 @@ def _(environment, **kw):
         entries[metric_name] = environment.stats.entries[
             (metric_name, "METRIC")
         ].avg_response_time
+
+    metric_run_time = environment.parsed_options.run_time
+    metric_num_tokens = environment.stats.entries[
+        ("num_tokens", "METRIC")
+    ].total_response_time
+    entries["throughput"] = metric_num_tokens / metric_run_time
     for percentile in [0.99, 0.9, 0.5]:
         metric_name = f"time_between_tokens_p{int(percentile*100)}"
-        entries[metric_name] = tbt_recorder.percentile(percentage=percentile)
+        entries[metric_name] = tbt_recorder.percentile(percentage=percentile) * 1000
     #import pdb;pdb.set_trace()
     if not environment.parsed_options.stream:
         # if there's no streaming these metrics are meaningless

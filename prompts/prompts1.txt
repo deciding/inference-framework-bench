@@ -1,0 +1,283 @@
+Skip to content
+geeksforgeeks
+Tutorials
+DSA
+Data Science
+Web Tech
+Courses
+
+
+Python Basics
+Interview Questions
+Python Quiz
+Popular Packages
+Python Projects
+Practice Python
+AI With Python
+Learn Python3
+Python Automation
+Python Web Dev
+DSA with Python
+Python OOPs
+Lists
+Strings
+Dictionaries
+Python Django Projects with Source Code (Beginners to Advanced)
+Last Updated : 05 Apr, 2024
+Python Django Projects with Source Code – Adding a project portfolio to your resume helps to show your skills and potential to your recruiter. Because in the tech space, real-time project experience matters a lot. Now, to make your resume powerful, we have come up with the top Django projects with source code.
+
+Here, you will find three levels of the projects we have covered Django projects for beginners, Django projects for intermediates, and Django projects for advanced levels. So, go through the entire post and find out the best Django projects that suit you, and your adding projects portfolio to your resume helps to show your skills and potential to your recruiter. Because in the tech space, real-time project experience matters a lot.
+Django Projects
+
+A Short Overview on Projects on Django
+Before heading towards the part of the project, let’s get a short overview of Django and what makes this framework so special. So Django is a high-level Python based web framework. After its introduction in 2005, it became very popular because it provided the facility of rapid development and based on MVT (Model View Template) it takes less time to develop an application.
+
+Because Django is an open-source framework written in Python, its template language feels very comfortable and easy to learn. It is so simple that even an HTML web developer can use it
+
+A.I. Apps That Can Change Your Lives | GeeksforGeeks
+00:00
+/
+03:29
+A.I. Apps That Can Change Your Lives | GeeksforGeeks
+Django Projects for Beginner
+Now that we understand the importance of the Django projects, let’s start with the projects. In the section, we have listed all the beginner Django projects examples with source code. These Python Django will help you understand the basics of concepts and succeed in your career. So, what are you waiting for? Let’s code!
+
+ToDo webapp using Django
+Weather app using Django | Python
+Blogging Platform using Django
+Event Countdown Timer using Django
+Image Gallery GUI using Django
+Youtube video downloader using Django
+Create Word Counter app using Django
+Translator App Project using Django
+Joke Application Project Using Django Framework
+Wikipedia search app Project using Django
+Build a URL Size Reduce App with Django
+Django – How to add multiple submit button in single form?
+How to build a URL Shortener with Django ?
+Setup Sending Email in Django Project
+Recipe Meal Planner using Django
+Nestest Serializer in Django Framework
+Uploading Image Using Django with Firebase
+Customizing Phone Number Authentication in Django
+Also Check: Top 10 Django Projects For Beginners With Source Code
+
+Django Projects for Intermediate
+Once you’ve finished the Django beginner projects and built up your confidence. It’s time to climb upward to improve proficiency and take on increasingly difficult Django projects examples. Here in this section, you may find Django projects that will test your skills, increase your knowledge, and help you learn more about the capabilities of the Django framework.
+
+How to add Google reCAPTCHA to Django forms ?
+How to add Pagination in Django Project?
+Realtime chat app using Django
+E-commerce Product Catalog using Django
+How to Add Cart in a Web Page using Django?
+Searching Hotel Room Project in Django
+Python Django | Google authentication and Fetching mails from scratch
+Django project to create a Comments System
+Integrating Bokeh Visualizations in Django Application
+Setup Sending Email in Django Project
+Calculate CGPA using Python Django
+Build a Django Application to Perform CRUD Operations
+Django Sign Up and login with confirmation Email | Python
+Make PWA of a Django Project
+Generate a PDF in Django
+Django CSV Output
+Email + Social Logins in Django
+Django Projects for Advance
+After you have mastered the fundamental concepts and Django techniques, it is time to move on to more Advanced Level Python Django projects that will put your logical abilities to the test as a Django web developer. These advanced Django projects listed below also test your creative thinking and how to, work with complex functionalities and build sophisticated web applications.
+
+How to add RSS Feed and Sitemap to Django project?
+Python Django Handling Custom Error Page
+How To Implement ChatGPT In Django
+Online Auction System Using Django
+How to Create a basic API using Django Rest Framework ?
+E-commerce Website using Django
+Razorpay Integration in Django
+Note-taking App using Django
+Online Resume Builder using Django
+Embed pygal charts in Django Application
+College Management System using Django
+Creating a Basic E-commerce Website for Displaying Products
+Create Newsletter app using Mailchimp and Django
+Voting System Project Using Django Framework
+Building Blog CMS (Content Management System) with Django
+Token Authentication in Django Channels and Websockets
+Securing Django Admin login with OTP (2 Factor Authentication)
+JWT Authentication with Django REST Framework
+Receipt Print with GUI using Django
+Movie Recommendation System using Django
+Recipe Recommendation System Using Python
+Blog Post Recommendation using Django
+Conclusion
+Well, if you dig into the Django projects, then you will know that Django provides a wide variety of project ideas for developers with different degrees of expertise. But in this article, we have compiled the top projects that are best for beginners, intermediates, and advanced Django web developers. So don’t waste your time start your Dajngo projects now to boost your career.
+
+Python Django Projects – FAQs
+Q1. Is Django used for big projects?
+
+Ans. Yes, it is used for big projects because Django provides a fast development process, is more scalable, and one of the best parts is that it is a cross-platform language.
+
+Q2. Is Django good for beginners?
+
+Ans. Well, Django is not a programming language it is a coding framework, so it is beneficial for everyone who is looking for a career in the field of web development.
+
+Q3. Companies that use Django?
+
+Ans. Multiple companies are using the Django framework some of the most popular ones are listed below:
+
+Instagram
+Spotify
+Pinterest
+Disqus
+Bitbucket
+National Geographic
+Q4. Does Django use the OPP concept?
+
+Ans. Yes, to build a reusable and modular web application, Django uses the OPP concept.
+
+
+
+S
+
+surajkr_gupta
+
+Next Article
+Python Flask Projects with Source Code (Beginners to Advanced)
+Similar Reads
+Python Flask Projects with Source Code (Beginners to Advanced)
+Flask, a Python web application framework, was created by Armin Ronacher. Known for its lightweight and efficient nature, Flask is designed for quick starts and accommodates complex applications. It is based on the Werkzeug WSGI toolkit and Jinja2 template engine. In this article, we’ve curated a list of the best Python Flask projects for all skill
+4 min read
+Top 10 Django Projects For Beginners With Source Code
+When it comes to software development in general, all development is run by websites on the internet. Even when you aren’t actively looking for web development or a Full stack developer role, having worked on Django Projects or any web development projects will substantially improve your portfolio regardless. This is because working and deploying a
+8 min read
+Python Projects - Beginner to Advanced
+In this guide, we'll explore a range of Python projects suitable for beginners to advanced programmers. These Python projects are designed to help you gain practical experience with Python programming while building real-world applications. Whether you're just starting out or looking to deepen your understanding of Python, there's something here fo
+6 min read
+Top 10 Docker Projects Ideas for Beginners [2024]
+Docker is a revolutionary tool used in the software world for developing, packaging, deploying, and managing applications efficiently. It is going to become the most demanding technology in 2024 and having projects of docker in skill bank is more valuable for developers. This article will provide you with the Top 10 Docker Project Ideas in 2024 tha
+9 min read
+Top 10 Front-End Web Development Projects For Beginners
+The best method to acquire any skill is to put it into practice by working on projects, however many people think they know everything after watching tutorials. However, this is incorrect; they do not create any projects on their own. All of these factors apply to Front-End Web Development as well; if you want to be a great Front-End Web Developer,
+7 min read
+View More Articles
+Article Tags :
+Django
+Project
+Python
+Django-Projects
++1 More
+Practice Tags :
+python
+three90RightbarBannerImg
+geeksforgeeks-footer-logo
+Corporate & Communications Address:- A-143, 9th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305) | Registered Address:- K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305
+GFG App on Play Store
+GFG App on App Store
+Company
+About Us
+Legal
+In Media
+Contact Us
+Advertise with us
+GFG Corporate Solution
+Placement Training Program
+GeeksforGeeks Community
+Languages
+Python
+Java
+C++
+PHP
+GoLang
+SQL
+R Language
+Android Tutorial
+Tutorials Archive
+DSA
+Data Structures
+Algorithms
+DSA for Beginners
+Basic DSA Problems
+DSA Roadmap
+Top 100 DSA Interview Problems
+DSA Roadmap by Sandeep Jain
+All Cheat Sheets
+Data Science & ML
+Data Science With Python
+Data Science For Beginner
+Machine Learning Tutorial
+ML Maths
+Data Visualisation Tutorial
+Pandas Tutorial
+NumPy Tutorial
+NLP Tutorial
+Deep Learning Tutorial
+Web Technologies
+HTML
+CSS
+JavaScript
+TypeScript
+ReactJS
+NextJS
+Bootstrap
+Web Design
+Python Tutorial
+Python Programming Examples
+Python Projects
+Python Tkinter
+Web Scraping
+OpenCV Tutorial
+Python Interview Question
+Django
+Computer Science
+Operating Systems
+Computer Network
+Database Management System
+Software Engineering
+Digital Logic Design
+Engineering Maths
+Software Development
+Software Testing
+DevOps
+Git
+Linux
+AWS
+Docker
+Kubernetes
+Azure
+GCP
+DevOps Roadmap
+System Design
+High Level Design
+Low Level Design
+UML Diagrams
+Interview Guide
+Design Patterns
+OOAD
+System Design Bootcamp
+Interview Questions
+Inteview Preparation
+Competitive Programming
+Top DS or Algo for CP
+Company-Wise Recruitment Process
+Company-Wise Preparation
+Aptitude Preparation
+Puzzles
+School Subjects
+Mathematics
+Physics
+Chemistry
+Biology
+Social Science
+English Grammar
+Commerce
+World GK
+GeeksforGeeks Videos
+DSA
+Python
+Java
+C++
+Web Development
+Data Science
+CS Subjects
+@GeeksforGeeks, Sanchhaya Education Private Limited, All rights reserved
+We use cookies to ensure you have the best browsing experience on our website. By using our site, you acknowledge that you have read and understood our Cookie Policy & Privacy Policy
+Got It !
+Lightbox
